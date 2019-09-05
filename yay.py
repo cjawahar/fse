@@ -2,7 +2,7 @@ import argparse as arg
 
 def range_print(max_val):
     for i in range(max_val):
-        print(i+1)
+        print(i+2)
 
 if __name__ == "__main__":
     parser = arg.ArgumentParser(description='Print')
@@ -13,6 +13,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     range_print(args.max)
+    range_print(10)
 
-
-print("Hello!!!!!!!!")
+print('HELLO MARK!')
