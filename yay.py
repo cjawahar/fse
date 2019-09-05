@@ -13,5 +13,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     range_print(args.max)
+    range_print(10)
 
 print('HELLO MARK!')
